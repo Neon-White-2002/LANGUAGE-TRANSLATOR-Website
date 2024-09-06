@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    letter-spacing: .7px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E3FFE3;
+}
+
+.container
+{
+    width: 55%;
+    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 30px;
+    background: #FFF;
+}
+
+.container .wrapper
+{
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1.5px solid #CCC;
+}
+
+.container .wrapper .text-input
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1.5px solid #CCC;
+}
+
+.container .wrapper .text-input textarea
+{
+    padding: 10px;
+    width: 100%;
+    height: 250px;
+    resize: none;
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+    background: none;
+}
+
+.container .wrapper .text-input .text-to
+{
+    border-left: 1.5px solid #CCC;
+}
+
+.container .wrapper .controls
+{
+    list-style: none;
+    padding: 10px;
+}
+
+.container .wrapper .controls, li, .icons, .icons i
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .wrapper .controls .icons
+{
+    width: 45%;
+}
+
+.container .wrapper .controls .icons i
+{
+    width: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #555;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container .wrapper .controls .row.from .icons
+{
+    padding-right: 15px;
+    border-right: 1.5px solid #CCC;
+}
+
+.container .wrapper .controls .row.to .icons
+{
+    padding-left: 15px;
+    border-left: 1.5px solid #CCC;
+}
+
+.container .wrapper .controls .row select
+{
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.container .wrapper .controls .exchange
+{
+    color: #555;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container button
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background: #5372F0;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 25px;
+    cursor: pointer;
+}
